@@ -1,10 +1,11 @@
 programa {
   funcao inicio() {
-    
-    inteiro numero
-
-    numero = 10
-
-escreva(numero == 10)
+    inteiro nome
+      nome = 10
+    escreva (nome == 10,"\n")
+    escreva (nome <= 10,"\n")
+    escreva (nome >= 10,"\n")
+    escreva (nome != 10,"\n")
+  
   }
 }
